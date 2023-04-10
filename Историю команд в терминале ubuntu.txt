@@ -1,0 +1,31 @@
+ 1000  echo "Собаки\Кошки\Хомяки" > "Домашние животные"
+ 1001  echo "Лошади\Верблюды\Ослы" > "Вьючные животные"
+ 1002  ды
+ 1003  ls
+ 1004  cat Вьючные\ животные 
+ 1005  cat Домашние\ животные 
+ 1006  cat "Домашние животные" "Вьючные животные" > "Друзья Человека"
+ 1007  ды
+ 1008  ls
+ 1009  cat Друзья\ Человека 
+ 1010  mkdir mansFriends
+ 1011  ls
+ 1012  mv Друзья\ Человека mansFriends/
+ 1013  ls
+ 1014  cd mansFriends/
+ 1015  ls
+ 1016  sudo apt-get update
+ 1017  sudo apt-get install software-properties-common
+ 1018  sudo add-apt-repository 'deb http://repo.mysql.com/apt/ubuntu/ bionic mysql-8.0'
+ 1019  sudo apt-get update
+ 1020  sudo apt-get install mysql-community-client
+ 1021  mysql --version 
+ 1022  sudo apt-get install mysql-server
+ 1023  sudo systemctl status mysql
+ 1024  sudo systemctl status mysql.service 
+ 1025  #sudo dpkg -i google-chrome-stable_current_amd64.ded
+ 1026  history 
+ 1027  wget https://go.skype.com/skypeforlinux-64.deb
+ 1028  sudo dpkg -i skypeforlinux-64.deb
+ 1029  sudo dpkg -P skypeforlinux
+ 1030  history 
